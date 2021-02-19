@@ -1,0 +1,68 @@
+.AboutContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.AboutContainer h2 {
+color: var(--orange);
+}
+
+
+.AboutTextImageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+    padding: 30px;
+    margin: 0 5% 0 5%
+}
+
+.AboutText {
+    color: var(--orange);
+}
+
+
+.AboutImage {
+    height: 600px;
+}
+
+
+
+.ProgressBarContainer {
+    padding: 30px;
+  margin-left: 5%;
+    width: 40%;
+    text-align: left;
+}
+
+.ProgressBarLabel {
+    margin: 2px;
+}
+
+@media (max-width: 1400px) {
+    .AboutTextImageContainer {
+        flex-direction: column;
+    align-items: center;  
+
+    }
+    .AboutImageContainer {
+        margin-left:0;
+    }
+    .AboutImage {
+        height: 400px;
+        margin-top: 50px;
+    } 
+    .InfoList {
+        padding: 0;
+    }
+    .ProgressBarContainer {
+        margin: auto;
+      }
+  }
+  @media (max-width: 480px) {
+  
+    .AboutImage {
+        height: 300px;
+        margin-top: 50px;
+    } 
+   
+  }

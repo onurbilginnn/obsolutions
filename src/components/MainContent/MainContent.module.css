@@ -1,0 +1,14 @@
+.MainContent {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;  
+}
+
+hr {
+    border-color: var(--red);
+    margin: 80px;
+    width: 90%;
+}
+

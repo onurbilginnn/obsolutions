@@ -1,0 +1,21 @@
+.FormTextArea {
+    width: 500px;
+    background-color: var(--red);
+    font-size: 1.2rem;
+    color: var(--black);
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.FormTextArea:disabled {
+    background-color: var(--grey);
+}
+
+@media (max-width: 1000px) {
+    .FormTextArea {
+        width: 300px;
+    }
+  }

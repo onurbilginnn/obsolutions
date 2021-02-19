@@ -1,0 +1,11 @@
+
+.Toolbar {
+    height: 56px;  
+    padding: 20px;
+    background-color: var(--darkGrey); 
+    display: flex;
+    flex-direction: row;  
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}

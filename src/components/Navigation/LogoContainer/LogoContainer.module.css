@@ -1,0 +1,23 @@
+.LogoContainer {  
+    height: 70%;  
+    width: 100%;
+    margin-right: 20%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.Image{
+    height: 100%;
+	-webkit-filter: none;
+	-webkit-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	
+}.Image:hover {
+	-webkit-filter: drop-shadow(0px 0px 24px rgba(255, 255, 255, 0.8));
+}
+.LogoSmallContainer {
+    cursor: pointer;
+}
+.ImageSmall {
+    height: 55px;
+}
