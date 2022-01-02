@@ -44,7 +44,7 @@ const NavigationItems = props => {
               {header}
             </NavigationItem>
           );
-        case 'Projects':
+        case 'Certificates':
           return (
             <NavigationItem key={header} navRef={projectsRef}>
               {header}
