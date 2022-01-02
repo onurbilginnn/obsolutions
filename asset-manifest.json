@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aa21e535.chunk.css",
+    "main.js": "/static/js/main.f74dcf8d.chunk.js",
+    "main.js.map": "/static/js/main.f74dcf8d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a975f0d6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a975f0d6.js.map",
+    "static/js/2.9d940670.chunk.js": "/static/js/2.9d940670.chunk.js",
+    "static/js/2.9d940670.chunk.js.map": "/static/js/2.9d940670.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.74616710a4100d01dbfcbf897dda5127.js": "/precache-manifest.74616710a4100d01dbfcbf897dda5127.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.aa21e535.chunk.css.map": "/static/css/main.aa21e535.chunk.css.map",
+    "static/js/2.9d940670.chunk.js.LICENSE.txt": "/static/js/2.9d940670.chunk.js.LICENSE.txt",
+    "static/media/AWSCPP.png": "/static/media/AWSCPP.004d50ea.png",
+    "static/media/AWSDev.png": "/static/media/AWSDev.fa46256c.png",
+    "static/media/AWSSAAS.png": "/static/media/AWSSAAS.b8fc0794.png",
+    "static/media/Electrolize-Regular.ttf": "/static/media/Electrolize-Regular.1be3e0aa.ttf",
+    "static/media/ServicesContainer.module.css": "/static/media/OB-Dark-2.b9b21083.jpg",
+    "static/media/HomeContainer.module.css": "/static/media/OB-Dark.155354b8.jpg",
+    "static/media/SourceCodePro-Bold.ttf": "/static/media/SourceCodePro-Bold.03c11f6b.ttf",
+    "static/media/SourceCodePro-Italic.ttf": "/static/media/SourceCodePro-Italic.c0888016.ttf",
+    "static/media/SourceCodePro-Regular.ttf": "/static/media/SourceCodePro-Regular.b484b32f.ttf",
+    "static/media/javascript.png": "/static/media/javascript.e8c27f6b.png",
+    "static/media/react.png": "/static/media/react.70f87bba.png",
+    "static/media/small-home-bg.png": "/static/media/small-home-bg.efd8420d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a975f0d6.js",
+    "static/js/2.9d940670.chunk.js",
+    "static/css/main.aa21e535.chunk.css",
+    "static/js/main.f74dcf8d.chunk.js"
+  ]
+}
