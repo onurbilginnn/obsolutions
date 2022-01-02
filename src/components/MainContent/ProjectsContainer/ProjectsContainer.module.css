@@ -2,6 +2,8 @@
     padding: 50px 50px 0 50px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .ProjectBox {
@@ -11,25 +13,12 @@
     cursor: pointer;
 }
 
-.ProjectImg:hover + .ProjectTextContainer {
-    display: block;
-    font-size: .8rem;
-}
-
-.ProjectImg:hover {
-    transform: scale(2);
-}
 
 .ProjectImg {
-    height: 50px;
+    height: 130px;
     transition: 0.3s;
 }
 
-.ProjectTextContainer {
-    padding: 20px;
-    font-size: 0;
-    transition: 0.3s;
-}
 
 @media (max-width: 800px) {
     .ProjectBoxesContainer {
@@ -40,7 +29,6 @@
     }
     .ProjectTextContainer {
         font-size: 0.9rem;
-        padding: 0;
     }
 
 .ProjectImg:hover + .ProjectTextContainer {
@@ -48,7 +36,4 @@
     font-size: .9rem;
 }
 
-.ProjectImg:hover {
-    transform: none;
-}
   }

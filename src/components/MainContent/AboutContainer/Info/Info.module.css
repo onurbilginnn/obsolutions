@@ -1,12 +1,13 @@
 .InfoContainer {
     text-align: left;
-    margin-top: 100px;
+    margin-top: 50px;
     color: var(--orange);
     font-weight: bold;
 }
 
 .InfoItem {
     margin: 10px 0 10px 0;
+    color: var(--white);
 }
 
 

@@ -28,10 +28,11 @@ color: var(--orange);
 
 
 .ProgressBarContainer {
-    padding: 30px;
   margin-left: 5%;
     width: 40%;
-    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .ProgressBarLabel {
@@ -64,5 +65,6 @@ color: var(--orange);
         height: 300px;
         margin-top: 50px;
     } 
+
    
   }

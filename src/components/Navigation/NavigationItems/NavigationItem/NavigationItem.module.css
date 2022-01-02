@@ -19,7 +19,7 @@
     padding: 5px;
     background-color: var(--red);
     border-radius: 5px;
-    color: var(--white);
+    color: var(--black);
     transition: 0.3s;
 }
 

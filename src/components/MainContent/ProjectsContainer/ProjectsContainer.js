@@ -3,8 +3,6 @@ import {useDispatch} from 'react-redux';
 
 import * as actions from '../../../store/actions/index';
 import BreakingText from '../../UI/BreakingText/BreakingText';
-import GlitchText from '../../UI/GlitchText/GlitchText';
-import NormalText from '../../UI/NormalText/NormalText';
 import { MainConstants } from '../../../constants/Main';
 
 import styles from './ProjectsContainer.module.css';
@@ -28,27 +26,26 @@ const ProjectsContainer = props => {
   for(let el in MainConstants.projects) {
     let glitchTexts = [];
 
-    for(let text in MainConstants.projects[el].projects) {
-      if(props.noGlitchText) {
-        glitchTexts.push( <NormalText key={text} >{MainConstants.projects[el].projects[text]}</NormalText>)
-      } else {
-        glitchTexts.push( <GlitchText key={text} center>{MainConstants.projects[el].projects[text]}</GlitchText>)
-      }
+    for(let text in MainConstants.projects[el].projects) {   
+        glitchTexts.push( <h3 style={{margin: 0}} key={text}>{MainConstants.projects[el].projects[text]}</h3>)
+      
     }
     projectElements.push(   <div key={el} className={styles.ProjectBox}>
+    <a rel="noopener noreferrer" target='_blank' href={MainConstants.projects[el].link}>
       <img className={styles.ProjectImg}
        src={MainConstants.projects[el].img}
         alt={MainConstants.projects[el].imgAlt} />
       <div className={styles.ProjectTextContainer}>
       {glitchTexts}
       </div>
+    </a>
     </div>);
   }
 
 
   return (
     <div className={styles.ProjectsContainer} ref={projectsRef} >
-      { props.activateBreakText && <BreakingText>Projects</BreakingText>}
+      { props.activateBreakText && <BreakingText>Certificates</BreakingText>}
       <div className={styles.ProjectBoxesContainer}>
         {projectElements}
       </div>

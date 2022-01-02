@@ -1,5 +1,4 @@
 import * as actions from './actionTypes';
-import { Service } from '../../constants/Service';
 
 export const sendMailStart = () => {
   return {
@@ -33,16 +32,17 @@ export const sendMail = (name, email, message) => {
 
     const requestOptions = {
       method: 'POST',
-      headers: {'Content-Type': 'application/json'},
+      headers: {'Content-Type': 'application/json',
+    'x-api-key': process.env.REACT_APP_API_KEY},
       body: JSON.stringify ({
         email: email,
         name: name,
         message: message,
       }),
     };
-      fetch (Service.mail.url, requestOptions)
+      fetch (process.env.REACT_APP_MAIL_URL, requestOptions)
       .then(response => {
-          if (response.status === 250) {
+          if (response.status === 200) {
             dispatch (sendMailSuccess ('Message sent succesfully.'));
           } else {
             dispatch (sendMailFail ('Message not sent!'));

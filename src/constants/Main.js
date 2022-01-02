@@ -1,12 +1,13 @@
 import React from 'react';
-import {FaSitemap, FaCode, FaDatabase, FaChartBar} from 'react-icons/fa';
+import {FaSitemap, FaCode, FaDatabase, FaCloud} from 'react-icons/fa';
 import { GiMining } from 'react-icons/gi';
 import { SiDatacamp } from 'react-icons/si';
-import cnrLogo from '../assets/logos/cnr-logo.png';
-import zenLogo from '../assets/logos/zen-logo.jpg';
-import sodexoLogo from '../assets/logos/sodexo-logo.png';
-import whiteMillLogo from '../assets/logos/whiteMill-logo.png';
-import sicpaLogo from '../assets/logos/sicpa-logo.png';
+import restApiLogo from '../assets/logos/restApi.png';
+import awsDevAssLogo from '../assets/logos/AWSDev.png';
+import awsSAAssLogo from '../assets/logos/AWSSAAS.png';
+import awsCPPLogo from '../assets/logos/AWSCPP.png';
+import jsLogo from '../assets/logos/javascript.png';
+import reactLogo from '../assets/logos/react.png';
 
 
 const date = new Date ();
@@ -18,13 +19,12 @@ export const MainConstants = {
   name: 'Onur',
   surname: 'Bilgin',
   titles: ['Full Stack Developer', 'Financial Programmer', 'Mobile Developer'],
-  techs: ['NodeJS', 'React', 'React Native', 'AWS', 'SQL', 'NoSQL'],
+  techs: ['NodeJS', 'React', 'Flutter', 'AWS', 'SQL', 'NoSQL'],
   aboutText: `Since childhood I am passionate about computers, programming and technology. I dedicate myself on simplification of time consuming
     operations with the help of programming.<br>
-    <p>Also I have ten years finance experience (mostly on reporting and budgeting) which helps me to
-    implement my programming skills to financial operations' development and accurate reporting of
-    <a href="https://kpi.org/KPI-Basics" target="_blank"><strong>KPIs</strong></a> which
-    encapsulates the subjects as financials, sales, marketing, production etc.</p>`,
+    <p>Self learner to be able to follow up new frameworks and libraries, innovative problem-solving.
+     Understandable, and object oriented programming skills.</p>
+     <p>Delivers exceptional results through automatization of processes, developing and adapting required softwares.</p>`,
   aboutInfo: {
     birth: 'Birthday: 11 May 1984',
     age: `Age: ${age}`,
@@ -37,6 +37,13 @@ export const MainConstants = {
     linkedin: 'https://www.linkedin.com/in/onur-bilgin-9134811a4/'
   },
   services: {
+    devOps: {
+      icon: <FaCloud />,
+      title: 'DevOps Engineering',
+      statement: `DevOps is a set of practices that combines software development and IT operations.
+       It aims to shorten the systems development life cycle and provide continuous delivery 
+       with high software quality.`
+    },
     backend: {
       icon: <FaSitemap />,
       title: 'Backend Development',
@@ -71,41 +78,47 @@ export const MainConstants = {
       statement: `Extract, Transform, Load (ETL) is the general procedure of copying data
        from one or more sources into a destination system which represents the data differently
         from the source(s) or in a different context than the source(s).`
-    },
-    bi: {
-      icon: <FaChartBar />,
-      title: 'Business Intelligence',
-      statement: `Business intelligence (BI) is a technology-driven process for
-       analyzing data and delivering actionable information that helps executives,
-        managers and workers make informed business decisions.`
     }
   },
   projects: {
-    cnr: {
-      img: cnrLogo,
-      imgAlt: 'Cnr Logo',
-      projects: ['ETL Implementation', 'BI Financial Reporting', 'CRM Development']
+    awsDeveloper: {
+      img: awsDevAssLogo,
+      imgAlt: 'Developer',
+      link: 'https://www.credly.com/earner/earned/badge/c28d441c-d016-424f-b884-194342f249ba',
+      projects: ['AWS', 'Developer Associate']
     },
-    whiteMill: {
-      img: whiteMillLogo,
-      imgAlt: 'White Mill Logo',
-      projects: ['Stock Management Software Development']
+    awsSA: {
+      img: awsSAAssLogo,
+      link: 'https://www.credly.com/earner/earned/badge/a5b959d5-bbc8-4028-9ecd-2f21cec021ce',
+      imgAlt: 'SAA',
+      projects: ['AWS', 'Solutions Architect Associate']
+
     },
-    zen: {
-      img: zenLogo,
-      imgAlt: 'Zen Logo',
-      projects: ['ETL Implementation', 'BI Management Reporting']
+    awsCPP: {
+      img: awsCPPLogo,
+      link: 'https://www.credly.com/earner/earned/badge/3503a455-529a-4c70-8570-a9aa2e098d61',
+      imgAlt: 'CPP',
+      projects: ['AWS', 'Cloud Practitioner']
+
     },
-    sodexo: {
-      img: sodexoLogo,
-      imgAlt: 'Sodexo Logo',
-      projects: ['ETL Implementation', 'BI Management Reporting']
+    javascript: {
+      img: jsLogo,
+      link: 'https://www.hackerrank.com/certificates/9f575ad55cdc',
+      imgAlt: 'JavaScript Logo',
+      projects: ['HackerRank', 'JavaScript']
     },
-    sicpa: {
-      img: sicpaLogo,
-      imgAlt: 'Sicpa Logo',
-      projects: ['Web Service Development', 'BI Management Reporting', 'CRM Development']
-    }
+    restApi: {
+      img: restApiLogo,
+      link: 'https://www.hackerrank.com/certificates/c3efbb66f627',
+      imgAlt: 'Rest Api Logo',
+      projects: ['HackerRank', 'Rest Api']
+    },
+    react: {
+      img: reactLogo,
+      link: 'https://skillvalue.com/en/user/certificate/3AclwM71OIBQLbNKrme1ClYDPg2OjsBDoOQAfCzo3cfb9DU7sGKt8plk6tZn',
+      imgAlt: 'React Logo',
+      projects: ['SkillValue', 'ReactJS']
+    },
   },
   contact: {
     address: 'Üsküdar/İstanbul, Turkey',
