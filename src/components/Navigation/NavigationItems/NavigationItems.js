@@ -18,7 +18,7 @@ const NavigationItems = props => {
     'Home',
     'About',
     'Services',
-    'Projects',
+    'Certificates',
     'Business',
     'Contact',
   ];
